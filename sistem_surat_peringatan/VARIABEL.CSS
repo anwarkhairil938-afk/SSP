@@ -1,0 +1,50 @@
+/* ===== VARIABLES ===== */
+:root {
+    --primary: hsla(219, 87%, 57%, 0.848); /* Ungu utama */
+    --primary-dark: #151dc3; /* Ungu lebih gelap */
+    --primary-light: #e1bee7; /* Ungu muda */
+    --secondary: #0a0eed; /* Ungu tua */
+    --secondary-dark: #311b92; /* Ungu gelap */
+    --accent: #ff4081; /* Pink aksen */
+    --accent-light: #ff79b0; /* Pink muda */
+    --light: #f3e5f5; /* Ungu sangat muda */
+    --dark: #2911e3; /* Ungu tua untuk teks */
+    --success: #27ae60;
+    --warning: #f39c12;
+    --danger: #e74c3c;
+    --info: #17a2b8;
+    --bg-primary: #f8f4fc; /* Background ungu muda */
+    --bg-secondary: #ffffff;
+    --text-primary: #0b3193; /* Ungu tua untuk teks utama */
+    --text-secondary: #090dea; /* Ungu medium untuk teks sekunder */
+    --text-light: #ffffff;
+    --border-color: #e1bee7; /* Border ungu muda */
+    --shadow-sm: 0 1px 3px rgba(17, 47, 243, 0.83);
+    --shadow-md: 0 4px 6px rgba(74, 0, 245, 0.938);
+    --shadow-lg: 0 10px 25px rgba(15, 126, 212, 0.968);
+    --border-radius: 12px;
+    --border-radius-lg: 20px;
+    --card-shadow: 0 10px 30px rgba(0, 43, 237, 0.926);
+    --hover-shadow: 0 20px 40px #5b14dfeb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
